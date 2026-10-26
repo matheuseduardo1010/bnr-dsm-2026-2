@@ -28,18 +28,18 @@
   },
 
   "forwardPorts": [
-    8888
+    8080
   ],
 
   "portsAttributes": {
-    "8888": {
+    "8080": {
       "label": "Spring Boot",
       "onAutoForward": "openBrowser",
       "visibility": "private"
     }
   },
 
-  "postCreateCommand": "chmod +x mvnw && ./mvnw dependency:go-offline",
+  "postCreateCommand": "cd api && chmod +x mvnw && ./mvnw dependency:go-offline",
 
   "remoteUser": "vscode"
 }
