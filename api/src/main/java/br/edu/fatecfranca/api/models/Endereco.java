@@ -1,5 +1,5 @@
 
-package br.edu.fatecfranca.api.model;
+package br.edu.fatecfranca.api.models;
 
 
 public class Endereco {
